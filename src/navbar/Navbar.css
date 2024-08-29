@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    width: 98.8vw;
+    position: relative;
+    right: 150px;
+    bottom: 280px;
+    height: 50px;
+}
+
+.logo{
+    position: relative;
+    top: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
